@@ -1,0 +1,71 @@
+/* sprites.less reset */
+[class^="icon-"],
+[class*=" icon-"] {
+  display: inline;
+  width: auto;
+  height: auto;
+  line-height: inherit;
+  vertical-align: baseline;
+  background-image: none;
+  background-position: 0% 0%;
+  background-repeat: repeat;
+}
+li[class^="icon-"],
+li[class*=" icon-"] {
+  display: block;
+}
+
+body {
+	padding-top: 60px;
+	padding-bottom: 40px;
+}
+
+form.volume-control input[type="submit"] {
+  width: 200px;
+  height: 120px;
+}
+
+h1.volume {
+  font-size: 100px;
+  line-height: normal;
+  font-family: "Helvetica Neue", Helvetica, Arial;
+  text-align: center;
+}
+
+h1.volume-muted {
+  color: #ccc;
+}
+
+#volume-controls,
+#controls {
+  text-align: center;
+}
+
+a#increase-volume,
+a#decrease-volume,
+a#mute-volume,
+a#sleep {
+  font-size: 100px;
+  padding-top: 25px;
+  line-height: normal;
+}
+
+.btn [class^="icon-"], .btn [class*=" icon-"] {
+  line-height: normal;
+}
+
+a#increase-volume span {
+}
+
+a#increase-volume,
+a#decrease-volume {
+  width: 100px;
+  height: 100px;
+  margin-bottom: 10px;
+}
+
+a#mute-volume,
+a#sleep {
+  width: 230px;
+  height: 100px;
+}
