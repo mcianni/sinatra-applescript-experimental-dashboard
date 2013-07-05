@@ -36,6 +36,10 @@ h1.volume-muted {
   color: #ccc;
 }
 
+#volume-controls {
+  margin-bottom: 120px;
+}
+
 #volume-controls,
 #controls {
   text-align: center;

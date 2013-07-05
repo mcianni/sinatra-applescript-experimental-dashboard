@@ -2,7 +2,7 @@
   %h1.volume
     #{@volume}
 
-  %div#volume-controls
+  #volume-controls
     %a{ :href => '#', :id => 'increase-volume', :class => 'btn btn-primary btn-large' }
       %i{ :class => 'icon-volume-up' }
     %a{ :href => '#', :id => 'decrease-volume', :class => 'btn btn-primary btn-large' }
@@ -11,13 +11,6 @@
     %a{ :href => '#', :id => 'mute-volume',     :class => 'btn btn-primary btn-large' }
       %i{ :class => 'icon-volume-off' }
 
-  <br/>
-  <br/>
-  <br/>
-  <br/>
-  <br/>
-  <br/>
-  <br/>
-  %div#controls
+  #controls
     %a{ :href => '#', :id => 'sleep',           :class => 'btn btn-danger btn-large' }
       %i{ :class => 'icon-off' }
